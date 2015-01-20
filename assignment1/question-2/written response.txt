@@ -1,0 +1,11 @@
+a) If this were a real structure, we would expect that the epsilon value would be between 0.06 and 0.12 kcal/mol,
+and the r_m values would be ~1.800 to ~2.000 angstroms. These values are typical for carbon-carbon and carbon -hydrogen
+bonds. Therefore, I expect the real material to be a C3 crystal.
+
+For bonds with larger differences in electronegativity, the r_m values become smaller, and the episilon values become
+greater.
+
+b) b) The modification required in the code to reflect the non-zero pressure is to introduce a limit for the particles to
+fill to, or a finite range for the energies to be calculated. This is because, via the Van der Waals equation, the 
+pressure going to infinity in an already filled container results in no space left for particles to move. Hence, a range
+(e.g. for i in range (0, natom, 100):) can be used to account for pressure interactions.
