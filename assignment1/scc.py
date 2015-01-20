@@ -1,5 +1,5 @@
 
-# We first start with the simple cubic
+# We first start with the simple cubic crystal
 
 import numpy as np
 
