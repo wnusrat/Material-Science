@@ -26,6 +26,24 @@ for i in range(10000):
     PE = 0.5*k*(x-x0)**2
     E_total = KE + PE
 
+
+#########Commment############
+
+# We first observe that the elastic force gives us a total driving force acting on each mass. 
+# Though they have the same mass, they have different positions,
+# so they therefore have 2 accelerations, and thus two different potential energies and forces.
+
+
+# We observe a graph for the energies where the kinetic energy and 
+#    potential energy oscillate from minimum to maximum as time 
+#    increases. This results in two sinusoidal curves, and a solid 
+#    horizontal line representing the total energy.
+
+# In some instances, we may observe the springs going into each other.
+
+
+# If the step size is ten times smaller, then get faster oscillations, but no change in energy.
+# If step size is ten time greater, then get slower oscillations, but no change in energy.
     print t, KE, PE, E_total
 
     # get particle to start at eq'm position and stay at same position
