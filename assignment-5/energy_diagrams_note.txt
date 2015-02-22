@@ -1,0 +1,12 @@
+I used this order to create my plots (similar to the video posted):
+
+1) Wrote energy.dat output
+2) Find folder with appropriate files (so ls, cd ___)
+3) Then type gnuplot to open up gnuplot
+4) Then open graph itself with plot "energy.dat"
+5) Then, for kinetic, potential, and total energy, type:
+6) plot for [i=2:4] "energy.dat" using 1:i
+7) This gives plots of all three:
+   - red curve is for kinetic energy
+   - green curve is for potential energy
+   - blue horizontal line is for the total energy
