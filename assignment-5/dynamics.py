@@ -43,4 +43,5 @@ for i in range(10000):
 # In some instances, we may observe the springs going into each other.
 
 
-# If the step size is ten times 
+# If the step size is ten times smaller, then get faster oscillations, but no change in energy.
+# If step size is ten time greater, then get slower oscillations, but no change in energy.
