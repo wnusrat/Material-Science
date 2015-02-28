@@ -1,0 +1,3 @@
+harmonicpotential1 is part a of question 5.
+harmonicpotential2 is part b of question 5.
+harmonicpotential3 is part c of question 5.
